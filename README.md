@@ -18,7 +18,9 @@ Read this after cloning the repository.
 
 # Mixnet:
 First, install all dependencies in the CrowdMixer folder using ‘npm install’
+
 Second, to run the Mixnet, use command npm run dev
+
 This will concurrently start all 5 servers
 
 # sendMessage.js File
@@ -26,5 +28,6 @@ To simulate an active user, simply run “node sendMessage.js” after the mixne
 
 # Chrome Extension
 This is a demo extension, so you can load the chrome extension the via chrome://extensions/
+
 After uploading the extension, simply enable it and if the mixnet is on, it will generate cover traffic 
 
