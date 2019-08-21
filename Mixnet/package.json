@@ -1,0 +1,33 @@
+{
+  "name": "CrowdMixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run dev",
+  "scripts": {
+    "entry1": "nodemon --max-old-space-size=4192 entry1.js",
+    "entry2": "nodemon --max-old-space-size=4192 entry2.js",
+    "mixnet1": "nodemon --max-old-space-size=4192 mixnet1.js",
+    "mixnet2": "nodemon --max-old-space-size=4192 mixnet2.js",
+    "mailbox": "nodemon --max-old-space-size=10240 mailbox.js",
+    "dev": "concurrently --kill-others \"npm run entry1\" \"npm run entry2\" \"npm run mixnet1\" \"npm run mixnet2\" \"npm run mailbox\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  },
+  "dependencies": {
+    "array-shuffle": "^1.0.1",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "hashmap": "^2.3.0",
+    "https": "^1.0.0",
+    "node-fpe-ascii": "^1.0.0",
+    "probability-distributions": "^0.9.1",
+    "uuid": "^3.3.3"
+  }
+}
