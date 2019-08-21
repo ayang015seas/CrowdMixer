@@ -13,6 +13,15 @@ If a user is attempting to retrieve messages from past rounds, they must hash to
 
 Passive users use the chrome extension to generate noise messages and mailbox numbers, which are then sent to the entry servers as long as the passive user has a chrome instance open. These messages are indistinguishable from active user messages. 
 
+# Components
+The Mixnet folder contains the JavaScript files to run the mixnet system and the sendMessage.js file.
+
+The PassiveExtension folder contains the scripts to run and assemble a development Chrome extension. 
+
+The documentation contains project poster and project visuals. 
+
+The old files folder contains previous iterations of the mixnet. 
+
 # Instructions: 
 Read this after cloning the repository. 
 
